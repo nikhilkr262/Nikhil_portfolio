@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of a Creative Developer">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Nikhil<span class="dot">.</span></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+            <a href="https://drive.google.com/file/d/1OKN8nNZ1X-AjgfcYONPbTH5JFEMktVG_/view?usp=sharing" target="_blank"
+                class="resume-link">Resume</a>
+        </nav>
+
+        <div class="header-right">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="hero-title">Nikhil Kumar<br> <span class="highlight">Backend Developer</span></h1>
+                <p class="hero-desc">Building scalable, high-performance, and secure systems using Java and Spring Boot.
+                    Expert in microservices and payment platforms.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                    <a href="https://drive.google.com/file/d/1OKN8nNZ1X-AjgfcYONPbTH5JFEMktVG_/view?usp=sharing"
+                        target="_blank" class="btn btn-outline">View Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <img src="assets/images/profile.jpg" alt="Nikhil Kumar" class="profile-img">
+                    <div class="floating-badge badge-1">
+                        <span class="icon">🚀</span>
+                        <span>Backend Expert</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <span class="icon">☕</span>
+                        <span>Java Developer</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other sections placeholders -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="section-subtitle">Professional Summary</p>
+                        <h3 class="about-heading">Backend Developer with 3 years of experience in building scalable
+                            systems.</h3>
+                        <p>I specialize in designing RESTful services, microservice architectures, and backend
+                            optimization using Java and Spring Boot. I consistently deliver reliable, production-ready
+                            solutions for banking and payment platforms.</p>
+                        <p>Currently working as a Software Engineer at Financial Software and Systems, integrating
+                            robust security mechanisms and optimizing payment gateways.</p>
+                        <div class="education-block" style="margin-top: 2rem;">
+                            <p class="section-subtitle">Education</p>
+                            <h4 style="font-size: 1.1rem; font-weight: 700;">VIT University (2021 – 2023)</h4>
+                            <p style="color: var(--text-muted);">Masters of Computer Application - CGPA: 8.08</p>
+                        </div>
+                    </div>
+                    <div class="skills-wrapper">
+                        <p class="section-subtitle">Tech Stack</p>
+                        <div class="skills-grid">
+                            <!-- Languages -->
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">JavaScript</div>
+                            <!-- Frameworks -->
+                            <div class="skill-item">Spring Boot</div>
+                            <div class="skill-item">Spring MVC</div>
+                            <div class="skill-item">Hibernate</div>
+                            <div class="skill-item">Microservices</div>
+                            <div class="skill-item">Kafka</div>
+                            <div class="skill-item">JSP</div>
+                            <div class="skill-item">JDBC</div>
+                            <div class="skill-item">AJAX</div>
+                            <div class="skill-item">JQuery</div>
+                            <div class="skill-item">Bootstrap</div>
+                            <div class="skill-item">CSS</div>
+                            <!-- Databases -->
+                            <div class="skill-item">MySQL</div>
+                            <div class="skill-item">SQL</div>
+                            <!-- Tools -->
+                            <div class="skill-item">Git</div>
+                            <div class="skill-item">Maven</div>
+                            <div class="skill-item">Jenkins</div>
+                            <div class="skill-item">CI/CD</div>
+                            <div class="skill-item">AWS</div>
+                            <div class="skill-item">Postman</div>
+                            <div class="skill-item">JIRA</div>
+                            <div class="skill-item">Bitbucket</div>
+                            <div class="skill-item">Eclipse</div>
+                            <!-- Testing & Concepts -->
+                            <div class="skill-item">JUnit</div>
+                            <div class="skill-item">REST API Testing</div>
+                            <div class="skill-item">DSA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <div>
+                            <h3 class="exp-role">Software Engineer</h3>
+                            <p class="exp-company">Financial Software and Systems Pvt. Ltd., Chennai</p>
+                        </div>
+                        <span class="exp-date">Feb 2023 – Present</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Designed and integrated a robust rate-limiting mechanism into the payment gateway,
+                            mitigating DoS attacks and improving system performance by 20%.</li>
+                        <li>Implemented Demographic Data Security by encrypting sensitive PII at rest and built a
+                            scalable RBAC-based Merchant User Management Module.</li>
+                        <li>Developed the end-to-end Risk Relaxation framework and Velocity Check for India’s largest
+                            bank, improving authorization success rates by 20–25%.</li>
+                        <li>Built a comprehensive audit-logging framework ensuring full traceability of user actions
+                            like merchant onboarding and provisioning.</li>
+                        <li>Engineered a high-security encryption/decryption engine boosting transaction data protection
+                            by 40% and system reliability by 30%.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/chat.png" alt="Real-time Chat App">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Java Swing & Socket IO</span>
+                            <h3 class="project-title">Real-time Chat App</h3>
+                            <p class="project-desc">Multi-threaded client-server chat application with secure
+                                authentication, group messaging, and persistent TCP connections. Won 'Java Hackathon' at
+                                VIT.</p>
+                            <a href="#" class="btn-link">View Project <span class="arrow">→</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/encryption.png" alt="Encryption Engine">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Security Framework</span>
+                            <h3 class="project-title">Encryption Engine</h3>
+                            <p class="project-desc">High-security encryption/decryption engine for payment gateways
+                                using industry-grade cryptographic standards, boosting data protection by 40%.</p>
+                            <span class="btn-link">Professional Work</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/banking.png" alt="Risk Relaxation Framework">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Banking Module</span>
+                            <h3 class="project-title">Risk Relaxation Framework</h3>
+                            <p class="project-desc">End-to-end framework including UI, DB, and Backend for India's
+                                largest bank, reducing false declines by 30%.</p>
+                            <span class="btn-link">Professional Work</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3 class="contact-heading">Let's Connect</h3>
+                        <p class="contact-desc">I am always open to discussing new opportunities, collaborations, or
+                            technical challenges.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="icon">📧</span>
+                                <a href="mailto:nikhilraj966@gmail.com">nikhilraj966@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon">📱</span>
+                                <a href="tel:+917033119903">+91 7033119903</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon">📍</span>
+                                <span>Chennai, Tamil Nadu</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">GitHub</a>
+                            <a href="https://leetcode.com/u/nikhilkr_262/" target="_blank"
+                                class="social-link">LeetCode</a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form" action="https://formsubmit.co/nikhilraj966@gmail.com"
+                        method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
